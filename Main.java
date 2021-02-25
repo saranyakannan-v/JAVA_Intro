@@ -10,7 +10,7 @@
 
 /*================DATA TYPE================= */ 
 
-public class Main {
+/*public class Main {
   public static void main(String[] args) {
     double myDouble = 9.78;
     int myInt = (int) myDouble; // Manual casting: double to int
@@ -18,6 +18,117 @@ public class Main {
     System.out.println(myDouble);   // Outputs 9.78
     System.out.println(myInt);      // Outputs 9
   }
-}
+}*/
 
+/*================Operators================= */ 
+
+// Operators are used to perform operations on variables and values.
+
+/*Java divides the operators into the following groups:
+
+- Arithmetic operators
+- Assignment operators
+- Comparison operators
+- Logical operators */
+
+/* public class Main {
+  public static void main(String[] args) {
+    int sum1 = 100 + 50;
+    int sum2 = sum1 + 250;
+    int sum3 = sum2 + sum2;
+    System.out.println(sum1); //150
+    System.out.println(sum2); //400
+    System.out.println(sum3); //800
+  }
+} */
+
+/*================String methods================= */ 
+
+// String are used for storing text.
+/*- String Length length()
+  - There are many string methods available, for example toUpperCase() and toLowerCase()
+  - Finding a Character in a String indexOf() it returns the index position
+  - String Concatenation + operator, concat() method to concatenate two strings*/
+
+/* public class Main {
+  public static void main(String[] args) {
+    String txt = "Hello World";
+    System.out.println(txt.toUpperCase());
+    System.out.println(txt.toLowerCase());
+    System.out.println(txt.length());
+    System.out.println(txt.indexOf("World"));
+    System.out.println(txt.concat("!"));
+  }
+}*/
+
+/*================Math================= */ 
+
+// The Java Math class has many methods that allows you to perform mathematical tasks on numbers.
+
+/* public class Main{
+  public static void main(String[] args){
+    System.out.println(Math.max(5, 10));  
+    System.out.println(Math.min(5, 10));  
+    System.out.println(Math.sqrt(81));
+    System.out.println(Math.abs(-4.7));
+    int randomNum = (int)(Math.random() * 101);  // 0 to 100
+    System.out.println(randomNum);
+  }
+} */
+
+/*================Java Conditions and If Statements================= */ 
+
+/*Syntax
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+}
+*/
+
+/* public class Main {
+  public static void main(String[] args) {
+    int time = 22;
+    if (time < 10) {
+      System.out.println("Good morning.");
+    } else if (time < 20) {
+      System.out.println("Good day.");
+    }  else {
+      System.out.println("Good evening.");
+    }
+  }
+}*/
+
+// Short Hand If...Else (Ternary Operator)
+// syntax : variable = (condition) ? expressionTrue :  expressionFalse;
+
+/*public class Main {
+  public static void main(String[] args) {   
+    int time = 9;
+    String result;
+    result = (time < 18) ? "Good day." : "Good evening.";
+    System.out.println(result);
+  }
+} */
+
+/*================Switch Statements================= */ 
+// Use the switch statement to select one of many code blocks to be executed.
+
+public class Main {
+  public static void main(String[] args) {
+    int day = 4;
+    switch (day) {
+      case 6:
+        System.out.println("Today is Saturday");
+        break;
+      case 7:
+        System.out.println("Today is Sunday");
+        break;
+      default:
+        System.out.println("Looking forward to the Weekend");
+    }    
+  }
+}
 

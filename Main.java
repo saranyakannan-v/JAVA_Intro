@@ -116,7 +116,7 @@ if (condition1) {
 /*================Switch Statements================= */ 
 // Use the switch statement to select one of many code blocks to be executed.
 
-public class Main {
+/*public class Main {
   public static void main(String[] args) {
     int day = 4;
     switch (day) {
@@ -130,5 +130,77 @@ public class Main {
         System.out.println("Looking forward to the Weekend");
     }    
   }
+}*/
+
+
+/*================While Loop================= */ 
+// The while loop loops through a block of code as long as a specified condition is true
+
+/*public class Main{
+  public static void main(String[] args){
+    int i=0;
+    while(i<5){
+      System.out.println(i);
+      i++;
+    }
+  }
+}*/
+/*******Do while*********/
+/* int i = 0;
+do {
+  System.out.println(i);
+  i++;
 }
+while (i < 5); */
+
+
+/*================For Loop================= */
+// When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop
+
+/* class Main {
+  public static void main(String[] args) {
+    for (int i = 0; i < 5; i++) {
+      System.out.println(i);
+    }  
+  }
+}*/
+
+/*================Break and Continue================= */
+// The break statement can also be used to jump out of a loop.
+// The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+/*public class Main {
+  public static void main(String[] args) {
+    for (int i = 0; i < 10; i++) {
+      if (i == 4) {
+        break;
+      }
+      System.out.println(i);
+    }  
+  }
+}*/
+
+/*public class Main {
+  public static void main(String[] args) {
+    for (int i = 0; i < 10; i++) {
+      if (i == 4) {
+        continue;
+      }
+      System.out.println(i);
+    }  
+  }
+}*/
+
+/*================Array================= */
+// Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+// To declare an array, define the variable type with square brackets
+
+public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    for (String i : cars) {
+      System.out.println(i);
+    }    
+  }
+}
+
 
